@@ -40,7 +40,7 @@ const {
 const path = require('path')
 const msgRetryCounterCache = new NodeCache()
 const prefix = '.'
-const ownerNumber = ['94725881990']
+const ownerNumber = ['94722336454']
 //===================SESSION============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
     if (config.SESSION_ID) {
@@ -479,7 +479,7 @@ async function connectToWA() {
     })
 }
 app.get("/", (req, res) => {
-    res.send("📟 Nebula Working successfully!");
+    res.send("📟 DENUWAN-MD Working successfully!");
 });
 app.listen(port, () => console.log(`Nebula Server listening on port http://localhost:${port}`));
 setTimeout(async () => {
