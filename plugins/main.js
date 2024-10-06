@@ -127,7 +127,7 @@ cmd({
             let monspace = '```'
             const MNG = `${monspace}👋 Hello ${pushname}${monspace}
 
-*👾 Nebula-MD commands menu...*
+*👾 DENUWAN-MD commands menu...*
   
 > *Version:* ${require("../package.json").version}
 > *Memory:* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
@@ -172,7 +172,7 @@ cmd({
                         title: 'Select a Category :)',
                         sections: [{
                             title: 'Please select a category',
-                            highlight_label: 'NEBULA-MD',
+                            highlight_label: 'DENUWAN-MD',
                             rows: rows
 
                         }]
