@@ -1,10 +1,10 @@
 {
-    "name": "nebula-md",
+    "name": "denuwan-md",
     "version": "1.0.0",
     "scripts": {
-        "start": "pm2 start index.js --deep-monitoring --attach --name nebula",
-        "stop": "pm2 stop nebula",
-        "restart": "pm2 restart nebula && pm2 logs",
+        "start": "pm2 start index.js --deep-monitoring --attach --name denuwan",
+        "stop": "pm2 stop denuwan",
+        "restart": "pm2 restart denuwan && pm2 logs",
         "stash": "git stash && git stash drop"
     },
     "dependencies": {
