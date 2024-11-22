@@ -9,5 +9,5 @@ function convertToBool(text, fault = 'true') {
 
 
 module.exports = {
-    SESSION_ID: false
+    SESSION_ID:|| "um5w1JrS#ccrZ7XklL9YsxclccZG_w4hKgPe9DZTt3nOObpQoa0I",
 };
